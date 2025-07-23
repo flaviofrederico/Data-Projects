@@ -19,7 +19,7 @@ def gerar_tipo_cliente(renda, valor_seguro, score):
 
 dados = []
 
-for i in range(1, 2001):  # 200 linhas
+for i in range(1, 101):  # 100 linhas
     idade = random.randint(18, 70)
     genero = random.choice(generos)
     estado_civil = random.choice(estados_civis)
